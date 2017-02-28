@@ -1,7 +1,7 @@
-New Installer for V4/PHP7/Debian 8 (Jessie)
+#Installer for V4/PHP7/Debian 8 (Jessie)
 
 
-So I have updated the old script that I made/modded to now install the following
+Updated everything in the script to:
 
     PHP7 with needed mods
     MariaDB
@@ -12,30 +12,31 @@ So I have updated the old script that I made/modded to now install the following
     XBT (optional)
 
 
-I'm probably forgetting something
+
 
 It installs from a blank slate and does not remove anything.
 
-Easiest way to use as root:
-wget https://gitlab.open-scene.net/whocares/u232-v4-xbt-mariadb-php5/raw/master/php7.sh
-bash php7.sh
+##Install
 
 
-OR
+`apt-get update && apt-get install ca-certificates wget -y`
 
-probably should just to be safe make that
-apt-get update
-apt-get install ca-certificates wget
-wget https://gitlab.open-scene.net/whocares/u232-v4-xbt-mariadb-php5/raw/master/php7.sh
-bash php7.sh
+---
 
+`wget https://gitlab.open-scene.net/whocares/u232-v4-xbt-mariadb-php5/raw/master/php7.sh`
+
+`bash php7.sh`
 
 
 
-Other install command
-chmod +x install.sh
-./install.sh
+###Other install command
+`chmod +x install.sh`
 
-If that doesnt work then try
-bash install.sh
+then
+
+`./install.sh`
+
+If that doesn't work then try:
+
+`bash install.sh`
 
