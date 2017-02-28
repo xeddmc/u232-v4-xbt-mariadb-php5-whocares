@@ -7,7 +7,7 @@ Updated everything in the script to:
     MariaDB
     U232 V4
     Webserver - Selectable between nginx and apache2
-    phpmyadmin
+    adminer
     HTTPS support with a self-signed certificate (optional)
     XBT (optional)
 
