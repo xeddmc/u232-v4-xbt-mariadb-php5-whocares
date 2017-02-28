@@ -21,8 +21,6 @@ It installs from a blank slate and does not remove anything.
 
 `apt-get update && apt-get install ca-certificates wget -y`
 
----
-
 `wget https://gitlab.open-scene.net/whocares/u232-v4-xbt-mariadb-php5/raw/master/php7.sh`
 
 `bash php7.sh`
